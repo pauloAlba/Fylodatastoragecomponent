@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="range.css">
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <section>
+          <img src="/images/logo.svg" alt="" />
+          <div>
+            <img src="/images/icon-document.svg" alt="" />
+            <img src="/images/icon-folder.svg" alt="" />
+            <img src="/images/icon-upload.svg" alt="" />
+          </div>
+        </section>
+
+        <section>
+          <span> You’ve used <strong>815 GB</strong> of your storage</span>
+          <input type="range" id="myRange" min="0" max="100" value="50">
+          <div>
+            <p><strong>0 GB</strong></p>
+            <p><strong>1000GB</strong></p> 
+          </div>
+          <h2>185 <span>GB LEFT</span></h2>
+    
+        </section>
+        
+        <script src="/range.js"></script>
+      </div>
+    </main>
+    <div class="special"></div>
+  </body>
+</html>
